@@ -71,6 +71,6 @@
 		<g:message code="treatmentPlan.totalCost.label" default="Total Cost" />
 		
 	</label>
-	<g:textField name="totalCost"  value="${shdental.TreatmentType.get(treatmentPlanInstance?.type?.id).cost.toString().toInteger() * treatmentPlanInstance?.units.toInteger()}"/>
+	<g:textField name="totalCost" value="${shdental.TreatmentType.get(treatmentPlanInstance?.type?.id).cost.toString().toInteger() * treatmentPlanInstance?.units.toInteger()}"/>
 </div>
 
